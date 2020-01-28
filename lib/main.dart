@@ -129,7 +129,6 @@ class _CalcState extends State<Calc> {
                 /*if(!inputField.contains('.')){
                   inputField = inputField.replaceAll(',', '');
                   inputField = inputField.replaceAll(new RegExp(r'\B(?=(\d{3})+(?!\d))'), ',');
-                  historyField = historyField.replaceAll(new RegExp(r'\B(?=(\d{3})+(?!\d))'), ',');
                 }*/
                 historyField += number;
               }
