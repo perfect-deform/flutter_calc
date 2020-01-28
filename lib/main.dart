@@ -126,11 +126,6 @@ class _CalcState extends State<Calc> {
                 }
               } else if (inputField.length < 16) {
                 inputField += number;
-                /*if(!inputField.contains('.')){
-                  inputField = inputField.replaceAll(',', '');
-                  inputField = inputField.replaceAll(new RegExp(r'\B(?=(\d{3})+(?!\d))'), ',');
-                  historyField = historyField.replaceAll(new RegExp(r'\B(?=(\d{3})+(?!\d))'), ',');
-                }*/
                 historyField += number;
               }
             });
